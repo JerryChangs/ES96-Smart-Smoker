@@ -8,12 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		CC537C381AF0137E00B13B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C371AF0137E00B13B84 /* AppDelegate.swift */; };
-		CC537C3A1AF0137E00B13B84 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C391AF0137E00B13B84 /* FirstViewController.swift */; };
-		CC537C3C1AF0137E00B13B84 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C3B1AF0137E00B13B84 /* SecondViewController.swift */; };
+		CC537C3A1AF0137E00B13B84 /* TempDialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C391AF0137E00B13B84 /* TempDialController.swift */; };
+		CC537C3C1AF0137E00B13B84 /* GraphsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C3B1AF0137E00B13B84 /* GraphsController.swift */; };
 		CC537C3F1AF0137E00B13B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC537C3D1AF0137E00B13B84 /* Main.storyboard */; };
 		CC537C411AF0137E00B13B84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC537C401AF0137E00B13B84 /* Images.xcassets */; };
 		CC537C441AF0137E00B13B84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC537C421AF0137E00B13B84 /* LaunchScreen.xib */; };
 		CC537C501AF0137E00B13B84 /* ES96_Smart_SmokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C4F1AF0137E00B13B84 /* ES96_Smart_SmokerTests.swift */; };
+		CC537C5C1AF0248B00B13B84 /* SmokerDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C5B1AF0248B00B13B84 /* SmokerDial.swift */; };
+		CC537C5E1AF12CE000B13B84 /* MeatDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C5D1AF12CE000B13B84 /* MeatDial.swift */; };
+		CC537C6A1AF159DA00B13B84 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C691AF159DA00B13B84 /* AudioToolbox.framework */; };
+		CC537C6C1AF159E000B13B84 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C6B1AF159E000B13B84 /* CFNetwork.framework */; };
+		CC537C6E1AF159E900B13B84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C6D1AF159E900B13B84 /* CoreGraphics.framework */; };
+		CC537C701AF159F000B13B84 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C6F1AF159F000B13B84 /* CoreLocation.framework */; };
+		CC537C721AF159F800B13B84 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C711AF159F800B13B84 /* MobileCoreServices.framework */; };
+		CC537C741AF159FF00B13B84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C731AF159FF00B13B84 /* QuartzCore.framework */; };
+		CC537C761AF15A0700B13B84 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C751AF15A0700B13B84 /* Security.framework */; };
+		CC537C781AF15A0D00B13B84 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C771AF15A0D00B13B84 /* StoreKit.framework */; };
+		CC537C7A1AF15A1700B13B84 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C791AF15A1700B13B84 /* SystemConfiguration.framework */; };
+		CC537C7C1AF15A3100B13B84 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C7B1AF15A3100B13B84 /* libz.dylib */; };
+		CC537C7E1AF15A3F00B13B84 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C7D1AF15A3F00B13B84 /* libsqlite3.dylib */; };
+		CC537C8C1AF15ED300B13B84 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C8B1AF15ED300B13B84 /* Parse.framework */; };
+		CC537C8E1AF15EE000B13B84 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC537C8D1AF15EE000B13B84 /* Bolts.framework */; };
+		CC537C901AF169BD00B13B84 /* SmokerGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C8F1AF169BD00B13B84 /* SmokerGraph.swift */; };
+		CC537C921AF16CDB00B13B84 /* MeatGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537C911AF16CDB00B13B84 /* MeatGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +47,31 @@
 		CC537C321AF0137E00B13B84 /* ES96 Smart Smoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ES96 Smart Smoker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC537C361AF0137E00B13B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC537C371AF0137E00B13B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC537C391AF0137E00B13B84 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CC537C3B1AF0137E00B13B84 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CC537C391AF0137E00B13B84 /* TempDialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDialController.swift; sourceTree = "<group>"; };
+		CC537C3B1AF0137E00B13B84 /* GraphsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsController.swift; sourceTree = "<group>"; };
 		CC537C3E1AF0137E00B13B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC537C401AF0137E00B13B84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC537C431AF0137E00B13B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CC537C491AF0137E00B13B84 /* ES96 Smart SmokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ES96 Smart SmokerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC537C4E1AF0137E00B13B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC537C4F1AF0137E00B13B84 /* ES96_Smart_SmokerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ES96_Smart_SmokerTests.swift; sourceTree = "<group>"; };
+		CC537C5B1AF0248B00B13B84 /* SmokerDial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmokerDial.swift; sourceTree = "<group>"; };
+		CC537C5D1AF12CE000B13B84 /* MeatDial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeatDial.swift; sourceTree = "<group>"; };
+		CC537C691AF159DA00B13B84 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CC537C6B1AF159E000B13B84 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CC537C6D1AF159E900B13B84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC537C6F1AF159F000B13B84 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CC537C711AF159F800B13B84 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CC537C731AF159FF00B13B84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CC537C751AF15A0700B13B84 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CC537C771AF15A0D00B13B84 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CC537C791AF15A1700B13B84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CC537C7B1AF15A3100B13B84 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CC537C7D1AF15A3F00B13B84 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CC537C8B1AF15ED300B13B84 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1.7.2/Parse.framework"; sourceTree = "<group>"; };
+		CC537C8D1AF15EE000B13B84 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1.7.2/Bolts.framework"; sourceTree = "<group>"; };
+		CC537C8F1AF169BD00B13B84 /* SmokerGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmokerGraph.swift; sourceTree = "<group>"; };
+		CC537C911AF16CDB00B13B84 /* MeatGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeatGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +79,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC537C7E1AF15A3F00B13B84 /* libsqlite3.dylib in Frameworks */,
+				CC537C7C1AF15A3100B13B84 /* libz.dylib in Frameworks */,
+				CC537C7A1AF15A1700B13B84 /* SystemConfiguration.framework in Frameworks */,
+				CC537C781AF15A0D00B13B84 /* StoreKit.framework in Frameworks */,
+				CC537C761AF15A0700B13B84 /* Security.framework in Frameworks */,
+				CC537C741AF159FF00B13B84 /* QuartzCore.framework in Frameworks */,
+				CC537C721AF159F800B13B84 /* MobileCoreServices.framework in Frameworks */,
+				CC537C8E1AF15EE000B13B84 /* Bolts.framework in Frameworks */,
+				CC537C701AF159F000B13B84 /* CoreLocation.framework in Frameworks */,
+				CC537C6E1AF159E900B13B84 /* CoreGraphics.framework in Frameworks */,
+				CC537C6C1AF159E000B13B84 /* CFNetwork.framework in Frameworks */,
+				CC537C8C1AF15ED300B13B84 /* Parse.framework in Frameworks */,
+				CC537C6A1AF159DA00B13B84 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +108,7 @@
 		CC537C291AF0137E00B13B84 = {
 			isa = PBXGroup;
 			children = (
+				CC537C681AF13ADD00B13B84 /* Frameworks */,
 				CC537C341AF0137E00B13B84 /* ES96 Smart Smoker */,
 				CC537C4C1AF0137E00B13B84 /* ES96 Smart SmokerTests */,
 				CC537C331AF0137E00B13B84 /* Products */,
@@ -79,9 +127,9 @@
 		CC537C341AF0137E00B13B84 /* ES96 Smart Smoker */ = {
 			isa = PBXGroup;
 			children = (
+				CC537C5A1AF0242D00B13B84 /* Views */,
+				CC537C591AF0242200B13B84 /* Controllers */,
 				CC537C371AF0137E00B13B84 /* AppDelegate.swift */,
-				CC537C391AF0137E00B13B84 /* FirstViewController.swift */,
-				CC537C3B1AF0137E00B13B84 /* SecondViewController.swift */,
 				CC537C3D1AF0137E00B13B84 /* Main.storyboard */,
 				CC537C401AF0137E00B13B84 /* Images.xcassets */,
 				CC537C421AF0137E00B13B84 /* LaunchScreen.xib */,
@@ -113,6 +161,46 @@
 				CC537C4E1AF0137E00B13B84 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC537C591AF0242200B13B84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC537C391AF0137E00B13B84 /* TempDialController.swift */,
+				CC537C3B1AF0137E00B13B84 /* GraphsController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CC537C5A1AF0242D00B13B84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC537C5B1AF0248B00B13B84 /* SmokerDial.swift */,
+				CC537C5D1AF12CE000B13B84 /* MeatDial.swift */,
+				CC537C8F1AF169BD00B13B84 /* SmokerGraph.swift */,
+				CC537C911AF16CDB00B13B84 /* MeatGraph.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CC537C681AF13ADD00B13B84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC537C8D1AF15EE000B13B84 /* Bolts.framework */,
+				CC537C8B1AF15ED300B13B84 /* Parse.framework */,
+				CC537C7D1AF15A3F00B13B84 /* libsqlite3.dylib */,
+				CC537C7B1AF15A3100B13B84 /* libz.dylib */,
+				CC537C791AF15A1700B13B84 /* SystemConfiguration.framework */,
+				CC537C771AF15A0D00B13B84 /* StoreKit.framework */,
+				CC537C751AF15A0700B13B84 /* Security.framework */,
+				CC537C731AF159FF00B13B84 /* QuartzCore.framework */,
+				CC537C711AF159F800B13B84 /* MobileCoreServices.framework */,
+				CC537C6F1AF159F000B13B84 /* CoreLocation.framework */,
+				CC537C6D1AF159E900B13B84 /* CoreGraphics.framework */,
+				CC537C6B1AF159E000B13B84 /* CFNetwork.framework */,
+				CC537C691AF159DA00B13B84 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC537C3C1AF0137E00B13B84 /* SecondViewController.swift in Sources */,
+				CC537C3C1AF0137E00B13B84 /* GraphsController.swift in Sources */,
 				CC537C381AF0137E00B13B84 /* AppDelegate.swift in Sources */,
-				CC537C3A1AF0137E00B13B84 /* FirstViewController.swift in Sources */,
+				CC537C5C1AF0248B00B13B84 /* SmokerDial.swift in Sources */,
+				CC537C5E1AF12CE000B13B84 /* MeatDial.swift in Sources */,
+				CC537C3A1AF0137E00B13B84 /* TempDialController.swift in Sources */,
+				CC537C921AF16CDB00B13B84 /* MeatGraph.swift in Sources */,
+				CC537C901AF169BD00B13B84 /* SmokerGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +436,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/jerrychang/Downloads/parse-library-1.7.2",
+					/Users/jerrychang/Desktop,
+				);
 				INFOPLIST_FILE = "ES96 Smart Smoker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +452,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/jerrychang/Downloads/parse-library-1.7.2",
+					/Users/jerrychang/Desktop,
+				);
 				INFOPLIST_FILE = "ES96 Smart Smoker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +517,7 @@
 				CC537C551AF0137E00B13B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC537C561AF0137E00B13B84 /* Build configuration list for PBXNativeTarget "ES96 Smart SmokerTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +526,7 @@
 				CC537C581AF0137E00B13B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
