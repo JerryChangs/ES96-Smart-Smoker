@@ -1,5 +1,5 @@
-# ES96-Smart-Smoker
-BBQ Smart Smoker iOS App
+Harvard Engineering BBQ Smart Smoker
+===============
 
 ## Description
 Partnering with Williams-Sonoma, our class of 16 engineering students was tasked with creating the ultimate barbecue smoker in 10 weeks. We identified problems with the leading smoker (Big Green Egg) and engineered solutions to those problems including a hyperboloid shape, a PID temperature control system, and an iOS app for remote monitoring of the cook process. These innovations create a uniform heat distribution on the cooking surface, increased smoke density for optimal flavor, and consistent temperature control without overshooting the ideal 225°F cooking temperature. 
