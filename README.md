@@ -17,4 +17,4 @@ My primary contributions to the project include developing the iOS app, research
 <a href="/ES96_FinalPresentation.pdf">Download Client Presentation</a> 
 
 ##Team
-![ES96 Team](/ES96Team.jpg "ES96 Team")
+Jerry Chang, John Chipoco, Jordan DeGraaf, Rebekka DePew, Joe Festa, William Jameson, Paul Kaczor, Ted Ko, Michel Maalouly, Will Moyo, Hope Ndhlovu, Austen Novis, Salathiel Ntakirutimana, Yinka Ogunbiyi, Sujay Tyle, Jack Zhou, Professor Kevin Kit Parker, Alexander Peyton Nesmith
