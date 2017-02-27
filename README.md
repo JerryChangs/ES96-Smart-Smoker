@@ -11,6 +11,10 @@ Partnering with Williams-Sonoma, our class of 16 engineering students was tasked
 	<li><a href="http://www.nytimes.com/2015/07/19/business/learning-to-engineer-a-better-brisket.html">New York Times</a></li>
 </ul>
 
+## Patent
+We filed and received a patent for our invention at the end of the class. 
+<a href="https://www.google.com/patents/WO2016171775A1?cl=en">Patent WO 2016171775 A1</a>
+
 ## Contribution
 My primary contributions to the project include developing the iOS app, researching and running experiments for the PID control system, and creating slides for our team presentations.
 
